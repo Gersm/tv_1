@@ -2,6 +2,22 @@
     font-family: "fontello";
     src: url("../fonts/fontello.woff") format('woff');
 }
+#abajo{
+	bottom: 17px;
+	left: 47%;
+	position: absolute;
+	border-radius: 40px;
+	background: rgba(0, 0, 0, 0.59);
+}
+#abajo img{
+	margin: 12px;
+	width: 37px;
+}
+#abajo a{display: block;}
+#abajo:hover{
+	background: rgba(0, 0, 0, 0.8);
+}
+
 .desc{
 	padding: 7px;
 	width: 88%;
@@ -9,7 +25,8 @@
 .etapa{
 	text-align: center;
 	margin: 0 11%;
-  	padding: 5px 7px;
+  	padding: 15px 5px;
+  	font-weight: 500;
 }
 .etapa::before{
 	content: '\e867';
@@ -60,12 +77,17 @@
 	right: 16px;
 	top: 17px;
 }
-#centro{text-align: center;}
+#centro{
+	padding: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#tacnaemprende .row{padding-bottom: 50px;}
 #te-img{margin-top: 50px;}
 .activo::before{background: rgb(66, 139, 202);}
 .inactivo::before{background: #8e8e8e;}
-.temario{padding: 0 8px;}
-.temario-icono{height: 50px;}
+.temario-icono{height: 103px;}
 .temario-desc:hover .temario-icono::before{background: #E22727;}
 .temario-fecha,.temario-desc,.temario-icono,.desc{display: inline-block;}
 
@@ -82,6 +104,11 @@
 	margin: 10px;
 	display: inline-block;
 	font-family: 'Varela Round', sans-serif;
+	-webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
 }
 #eventos h3, #eventos p{
 	margin-left: 3px; 
@@ -93,4 +120,12 @@
 #eventos p{
 	color: #9b9b9b;
 	font-style: italic;
+}
+
+#eventos .elemento:hover{
+	-webkit-transform: scale(1.04,1.04);
+       -moz-transform: scale(1.04,1.04);
+        -ms-transform: scale(1.04,1.04);
+         -o-transform: scale(1.04,1.04);
+            transform: scale(1.04,1.04);
 }
