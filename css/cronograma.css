@@ -73,7 +73,7 @@ img[src*="Evnt-32"]{
 }
 .etapa::before{
 	content: '\e867';
-	left: 7%;
+	left: 9%;
 	position: absolute;
 }
 .temario-icono::before{
@@ -89,6 +89,7 @@ img[src*="Evnt-32"]{
 .color3{background: blue;}
 .color4{background: aqua;}
 .color4{background: white;}
+.desc h4{text-transform: capitalize;}
 .justy{text-align:justify;}
 .tema{font-family: sans-serif;}
 .temario-fecha-bootom{display:none;}
@@ -99,4 +100,21 @@ img[src*="Evnt-32"]{
 @media (max-width: 767px) {
 	.temario-fecha-bootom{display:block;}
 	.temario-fecha-top{display:none;}
+}
+
+
+#abajo{
+	bottom: 17px;
+	left: 47%;
+	position: absolute;
+	border-radius: 40px;
+	background: rgba(0, 0, 0, 0.59);
+}
+#abajo img{
+	margin: 12px;
+	width: 37px;
+}
+#abajo a{display: block;}
+#abajo:hover{
+	background: rgba(0, 0, 0, 0.8);
 }

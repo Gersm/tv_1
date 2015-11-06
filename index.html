@@ -42,7 +42,7 @@
                 var alto = $('.evento:nth-child('+(i+1)+') .desc').css('height');
                 $('.evento:nth-child('+(i+1)+') .temario-icono').css('height',alto);
             };
-            var aaa = parseInt($('.evento:nth-child('+(n+1)+') .desc').css('height'))-19;
+            var aaa = parseInt($('.evento:nth-child('+(n+1)+') .desc').css('height'));
             $('.evento:nth-child('+(n+1)+') .temario-icono').css('height',aaa);   
         });
     </script>
@@ -68,7 +68,7 @@
                 <a href="#services">Ecosistema Emprendedor</a>
             </li>
             <li>
-                <a href="#portfolio">Nuestros Eventos</a>
+                <a href="#eventos">Nuestros Eventos</a>
             </li>
             <li>
                 <a href="#contacto">Contáctanos</a>
@@ -79,13 +79,16 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-			<div class="logo">
-				<img src="img/logotv.png">
-			</div>
+            <div class="logo">
+                <img src="img/logotv.png">
+            </div>
             <h1>Tacna Valley</h1>
             <h3>Comunidad de Emprendedores en Tecnología de Tacna</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">www.tacnavalley.org</a>
+            <div id="abajo">
+                <a href="#about"><img src="img/bottom.png"></a>
+            </div>
         </div>
     </header>
 
@@ -176,160 +179,97 @@
 
 
 
-    <div class="container-fluid">
-        <h2 id="centro">Nuestro Programa Gratuito #TacnaEmprende</h2>
+    <div id="eventos" class="container-fluid">
+        <h2 id="centro">NUESTRO PROGRAMA GRATUITO #TACNAEMPRENDE</h2>
         <div class="row">
-            <div class="col-sm-6 tema">
-                <h4>CONCURSO DE EMPRENDIMIENTOS - PRESENTA TU STARTUP</h4>
-                <img src="img/Evnt-32.jpg">
-                <p class="justy tema-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-                </p>
-                <div id="clear"></div>
-            </div>
-            <div class="col-sm-6 temario">
-                <h4 class="etapa activo">DESARROLLO DEL ESPÍRITU EMPRENDEDOR: HERRAMIENTAS PARA EMPRENDEDORES</h4>
+            <div class="col-sm-12 temario">
+                <h4 class="etapa inactivo">DESARROLLO DEL ESPÍRITU EMPRENDEDOR: HERRAMIENTAS PARA EMPRENDEDORES</h4>
+                <!-- <h4 class="etapa">LEAN STARTUP Y CUSTOMER DEVELOPMENT: DE LA IDEA AL MODELO DE NEGOCIO</h4>
+                <h4 class="etapa">INTRODUCCIÓN A LA PROGRAMACIÓN: CONTRUYENDO EL PRIMER PROTOTIPO</h4> -->
+                <h4 class="etapa activo">DISEÑO Y DESARROLLO WEB: CONSTRUYE TU IDEA PARA EL MUNDO</h4>
                 <div class="evento">
                     <div class="temario-fecha-top">
-                        <p>24 de Abril</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Presentación de Programa</h4>
-                            <p class="justy">Introducción y motivación sobre #TacnaEmprende.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>24 de Abril</p>
-                    </div>
-                </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>24 de Abril</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Modelado de Ideas de negocio.</h4>
-                            <p class="justy">
-                                Construcción del Futuro StartUp mediante Business Model Canvas.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>24 de Abril</p>
-                    </div>
-                </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>24 de Abril</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Validación de ideas de negocio y como llegar a los demás.</h4>
-                            <p class="justy">
-                                Conocer el Cliente mediante el mapa de empatía y elaboracion del 1er Pitch.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>24 de Abril</p>
-                    </div>
-                </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>11 de Abril</p>
-                        <p>04:00 PM.</p>
+                        <p>MUY</p>
+                        <p>PRONTO</p>
                     </div>
                     <div class="temario-desc">
                         <div class="temario-icono activo"></div>
                         <div class="desc">
-                            <h4>Concurso de emprendimientos - presenta tu startup</h4>
+                            <h4>Taller de html5 y css3 - Diseña tu landing page</h4>
                             <p class="justy">
-                                Presentar, retroalimentar y mejorar tu Start          Up.                  
+                                Crea tu primera Pagina web.
                             </p>
                         </div>
                     </div>
                     <div class="temario-fecha-bootom">
-                        <p>11 de Abril</p>
-                        <p>04:00 PM.</p>
+                        <p>MUY</p>
+                        <p>PRONTO</p>
                     </div>
                 </div>
-                <!-- <h4 class="etapa">LEAN STARTUP Y CUSTOMER DEVELOPMENT: DE LA IDEA AL MODELO DE NEGOCIO</h4>
-                <h4 class="etapa">INTRODUCCIÓN A LA PROGRAMACIÓN: CONTRUYENDO EL PRIMER PROTOTIPO</h4> -->
-                <h4 class="etapa inactivo">DISEÑO Y DESARROLLO WEB: CONSTRUYE TU IDEA PARA EL MUNDO</h4>
+                <div class="evento">
+                    <div class="temario-fecha-top">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                    <div class="temario-desc">
+                        <div class="temario-icono inactivo"></div>
+                        <div class="desc">
+                            <h4>Gestores de Contenido CMS (Wordpress)</h4>
+                            <p class="justy">
+                                Una forma sencilla y rapida de poner en marcha tu pagina web.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="temario-fecha-bootom">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="temario-fecha-top">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                    <div class="temario-desc">
+                        <div class="temario-icono inactivo"></div>
+                        <div class="desc">
+                            <h4>Comparación con tecnologías web, frontend y backend</h4>
+                            <p class="justy">
+                                Professiones que se complementan y evolucionan cada dia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="temario-fecha-bootom">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="temario-fecha-top">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                    <div class="temario-desc">
+                        <div class="temario-icono inactivo"></div>
+                        <div class="desc">
+                            <h4>Prototipado UX (user experience) y Wireframes</h4>
+                            <p class="justy">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="temario-fecha-bootom">
+                        <p>MUY</p>
+                        <p>PRONTO</p>
+                    </div>
+                </div>
                 <h4 class="etapa inactivo">FIDELIZACIÓN DE CLIENTES: MARKETING QUE SÍ FUNCIONA</h4>
                 <h4 class="etapa inactivo">APLICACIONES MÓVILES: CLIENTES USANDO TU IDEA EN SU CELULAR</h4>
             </div>
         </div>
     </div>
-    
 
-
-
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Nuestro Programa Gratuito #EmprendeTacna</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-								<h3>Programa Trimestral de Talleres</h3>
-								<ul class="list-inline item-details">
-									<li>Fecha:
-										<strong>Sábado 31 de Enero</strong>
-									</li>
-									<li>Lugar:
-										<strong>Ex Palacio Municipal</strong>
-									</li>
-									<li>Horario:
-										<strong>03:00 pm</strong>
-									</li>
-								</ul>
-								<p><strong>Lanzamiento: </strong>Apertura del Programa TacnaEmprende (31 Ene.)</p>
-								<p><strong>Modulo I: </strong>Modelando ideas de negocios con CANVAS(21 Feb.)</p>
-								<p><strong>Modulo II: </strong>Validando ideas de negocio y prepara PITCH (14 Marz.)</p>
-								<p><strong>Modulo III: </strong>Concurso de emprendimientos - presenta tu startup (04 Abril)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Regístrate y accede a nuestro Programa #TacnaEmprende</h2>
-                    <!-- /.<a href="#" class="btn btn-lg btn-light">Quiero registrarme!</a> -->
-                    <a href="http://www.joinnus.com/activity/1707" target="_blank" class="btn btn-lg btn-dark">Quiero Registrarme!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
 
     <!-- Footer -->
     <footer id="contacto" class="contacto">
