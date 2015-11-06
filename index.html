@@ -42,7 +42,7 @@
                 var alto = $('.evento:nth-child('+(i+1)+') .desc').css('height');
                 $('.evento:nth-child('+(i+1)+') .temario-icono').css('height',alto);
             };
-            var aaa = parseInt($('.evento:nth-child('+(n+1)+') .desc').css('height'));
+            var aaa = parseInt($('.evento:nth-child('+(n+1)+') .desc').css('height'))-19;
             $('.evento:nth-child('+(n+1)+') .temario-icono').css('height',aaa);   
         });
     </script>
@@ -68,7 +68,7 @@
                 <a href="#services">Ecosistema Emprendedor</a>
             </li>
             <li>
-                <a href="#eventos">Nuestros Eventos</a>
+                <a href="#portfolio">Nuestros Eventos</a>
             </li>
             <li>
                 <a href="#contacto">Contáctanos</a>
@@ -124,7 +124,7 @@
                                 <h4>
                                     <strong>Espíritu Emprendedor</strong>
                                 </h4>
-                                <p>Nos enfocamos en crear un ecosistema de emprendimiento tecnologico en Tacna, como base para fortalecer el desarrollo economico en nuestra región con la apertura de nuevas startups</p>
+                                <p>Nos enfocamos en crear un ecosistema de emprendimiento tecnológico en Tacna, como base para fortalecer el desarrollo económico en nuestra región con la apertura de nuevas startups</p>
                                 
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                 <h4>
                                     <strong>Generar Sinergia</strong>
                                 </h4>
-                                <p>Trabajamos en equipo con comunidades de emprendimiento y teconologia, asi mismo generamos alianzas con organizaciones que incuban y aceleran los emprendimientos.</p>
+                                <p>Trabajamos en equipo con comunidades de emprendimiento y teconología, así mismo generamos alianzas con organizaciones que incuban y aceleran los emprendimientos.</p>
                                 <!--- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                                 <h4>
                                     <strong>Aplicar Innovación</strong>
                                 </h4>
-                                <p>Colaboramos en la formación de nuevos emprendimientos tecnologicos y equipos multidiciplinarios, brindándoles asesoría y además de una red de contactos para iniciar sus proyectos.</p>
+                                <p>Colaboramos en la formación de nuevos emprendimientos tecnológicos y equipos multidisciplinarios, brindándoles asesoría y además de una red de contactos para iniciar sus proyectos.</p>
                                 
                             </div>
                         </div>
@@ -179,97 +179,63 @@
 
 
 
-    <div id="eventos" class="container-fluid">
-        <h2 id="centro">NUESTRO PROGRAMA GRATUITO #TACNAEMPRENDE</h2>
-        <div class="row">
-            <div class="col-sm-12 temario">
-                <h4 class="etapa inactivo">DESARROLLO DEL ESPÍRITU EMPRENDEDOR: HERRAMIENTAS PARA EMPRENDEDORES</h4>
-                <!-- <h4 class="etapa">LEAN STARTUP Y CUSTOMER DEVELOPMENT: DE LA IDEA AL MODELO DE NEGOCIO</h4>
-                <h4 class="etapa">INTRODUCCIÓN A LA PROGRAMACIÓN: CONTRUYENDO EL PRIMER PROTOTIPO</h4> -->
-                <h4 class="etapa activo">DISEÑO Y DESARROLLO WEB: CONSTRUYE TU IDEA PARA EL MUNDO</h4>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono activo"></div>
-                        <div class="desc">
-                            <h4>Taller de html5 y css3 - Diseña tu landing page</h4>
-                            <p class="justy">
-                                Crea tu primera Pagina web.
-                            </p>
+
+    
+
+
+
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nuestro Programa Gratuito #EmprendeTacna - Etapa 2</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+								<h3>Programa Semanal de Talleres</h3>
+                                <h4>11 de Julio</h4>
+                                <p><strong>Lanzamiento: </strong>Presentación del programa Tacna Emprende – Etapa 2 y una charla sobre la personalidad de cada prototipo web</p>
+                                <h4>18 de Julio</h4>
+                                <p><strong>Diseña Tu Landing Page: </strong>Comprender y aprender el funcionamiento y los lenguajes que se utilizan en un prototipo web (Html5 y css3).</p>
+                                <h4>25 de Julio</h4>
+                                <p><strong>Administra Tu Contenido Web: </strong>Disminuir la dificultad a la hora de administrar sus contenidos web, mediando los Sistemas De Gestión De Contenido CMS (WordPress).</p>
+                                <h4>01 de Agosto</h4>
+								<p><strong>Anima tu Landing Page: </strong>Aprender convertir tu Landing page clásico en un reto atractivo que merezca la pena continuar consumiendo, mediando la GAMIFICATION.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="temario-fecha-bootom">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
                 </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Gestores de Contenido CMS (Wordpress)</h4>
-                            <p class="justy">
-                                Una forma sencilla y rapida de poner en marcha tu pagina web.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Regístrate y accede a nuestro Programa #TacnaEmprende</h2>
+                    <!-- /.<a href="#" class="btn btn-lg btn-light">Quiero registrarme!</a> -->
+                    <a href="http://www.joinnus.com/activity/1707" target="_blank" class="btn btn-lg btn-dark">Quiero Registrarme!</a>
                 </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Comparación con tecnologías web, frontend y backend</h4>
-                            <p class="justy">
-                                Professiones que se complementan y evolucionan cada dia.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                </div>
-                <div class="evento">
-                    <div class="temario-fecha-top">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                    <div class="temario-desc">
-                        <div class="temario-icono inactivo"></div>
-                        <div class="desc">
-                            <h4>Prototipado UX (user experience) y Wireframes</h4>
-                            <p class="justy">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="temario-fecha-bootom">
-                        <p>MUY</p>
-                        <p>PRONTO</p>
-                    </div>
-                </div>
-                <h4 class="etapa inactivo">FIDELIZACIÓN DE CLIENTES: MARKETING QUE SÍ FUNCIONA</h4>
-                <h4 class="etapa inactivo">APLICACIONES MÓVILES: CLIENTES USANDO TU IDEA EN SU CELULAR</h4>
             </div>
         </div>
-    </div>
-
+    </aside>
 
     <!-- Footer -->
     <footer id="contacto" class="contacto">
