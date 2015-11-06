@@ -2,6 +2,8 @@
     font-family: "fontello";
     src: url("../fonts/fontello.woff") format('woff');
 }
+@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+
 #abajo{
 	bottom: 17px;
 	left: 47%;
@@ -95,8 +97,16 @@
 
 
 #eventos{
+	/*background: url(../img/fondo.png) no-repeat center center fixed;
+	background-size: 100% 100%;*/
 	background: #E3E3E3;
 	text-align: center;
+	padding: 20px 0;
+}
+#eventos h2{
+	color: #777;
+  	font-weight: 700;
+  	font-family: "Lato", sans-serif;
 }
 #eventos .elemento{
 	background: #fff;
@@ -121,7 +131,7 @@
 	color: #9b9b9b;
 	font-style: italic;
 }
-
+#eventos img 
 #eventos .elemento:hover{
 	-webkit-transform: scale(1.04,1.04);
        -moz-transform: scale(1.04,1.04);
