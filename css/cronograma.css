@@ -42,6 +42,10 @@ body>*{
 
 #fondoo{
 	background: url(../img/integrantes.jpg) no-repeat center center fixed;
+    background-size: cover;
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 #fondoo>div{
 	height: 100%;
@@ -117,16 +121,6 @@ body>*{
 	text-align : justify;
 	padding: 0 10px
 }
-
-@media (max-width: 750px) {
-    #registrate{
-    	padding: 0px 0px !important;
-    }
-    #registrate>aside{
-       padding: 60% 0;
-    }
-}
-
 
 
 #postula{
