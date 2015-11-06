@@ -52,6 +52,12 @@
 	font-style: italic;
 	font-weight: normal;
 }
+.justy::before{
+	content: "\e835";
+	font-family: "fontello";
+	position: relative;
+  	left: -5px;
+}
 .temario-desc{
 	padding: 0 5px;
 	width: 74%;
@@ -60,9 +66,8 @@
 .temario-fecha{
 	color: rgba(0, 0, 0, 0.35);
 	font-size: 15px;
-	text-align: right;
 	vertical-align: middle;
-	width: 23%;
+	width: 22%;
 	font-family: Open Sans;
 	padding-right: 7px;
 	font-style: italic;
@@ -79,8 +84,23 @@
 	right: 16px;
 	top: 17px;
 }
+#tacnaemprende .fecha::before{
+	content: "\e817";
+	font-weight: bold;
+}
+#tacnaemprende .lugar::before{
+	content: "\e85c";
+}
+#tacnaemprende a{
+	color: rgba(0, 0, 0, 0.35);
+}
+.fecha::before, .lugar::before{
+	font-family: "fontello";
+	border-radius: 5px;
+	margin-right: 5px;
+}
 #centro{
-	padding: 30px 0;
+	padding: 15px 0 7px 0;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -137,3 +157,34 @@
          -o-transform: scale(1.04,1.04);
             transform: scale(1.04,1.04);
 }*/
+
+#integrantes{
+	background: url(../img/integrantes.jpg) no-repeat fixed center center;
+	background-size: 100% auto;
+	margin-top: -23px;
+}
+#integrantes h2{
+	  font-weight: bold;
+	  text-align: center;
+	  padding: 50px 0;
+	  color: white;
+	  text-shadow: 2px 2px 4px #000;
+}
+#integrantes{
+	text-align: center;
+	margin-top: -25px;
+}
+.q{
+	font-weight: bold;
+}
+#integrantes article{
+	display: inline-block;
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+#integrantes .face::before{
+	content: "\e838";
+	font-family: "fontello";
+}
