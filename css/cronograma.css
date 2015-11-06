@@ -96,9 +96,7 @@
 
 
 
-#eventos{
-	/*background: url(../img/fondo.png) no-repeat center center fixed;
-	background-size: 100% 100%;*/
+/*#eventos{
 	background: #E3E3E3;
 	text-align: center;
 	padding: 20px 0;
@@ -131,11 +129,11 @@
 	color: #9b9b9b;
 	font-style: italic;
 }
-#eventos img 
+
 #eventos .elemento:hover{
 	-webkit-transform: scale(1.04,1.04);
        -moz-transform: scale(1.04,1.04);
         -ms-transform: scale(1.04,1.04);
          -o-transform: scale(1.04,1.04);
             transform: scale(1.04,1.04);
-}
+}*/
