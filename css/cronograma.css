@@ -2,28 +2,28 @@
     font-family: "fontello";
     src: url("../fonts/fontello.woff") format('woff');
 }
-img[src*="Evnt-32"]{
-	border-radius: 8px;
-	float: left;
-	margin: 0 10px 10px 10px;
-	width: 50%;
-}
 .activo::before{
-	background: red;
+	background: #428BCA;
 }
 .inactivo::before{
 	background: #8e8e8e;
 }
+.etapa.activo{
+	background-color: rgba(66, 139, 202, 0.65);
+  	color: #FFFFFF;
+}
 .desc{
 	padding: 7px;
 	width: 88%;
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
 }
 .etapa{
-	text-align: center;
-	margin: 0 11%;
+	margin: 10px 11%;
   	padding: 5px 7px;
 }
-
 .tema-desc{
 	font-family: 'Corbel';
 	font-style: italic;
@@ -56,9 +56,6 @@ img[src*="Evnt-32"]{
 	vertical-align: top;
 	width: 3px;
 }
-.activo:before{
-	background: #428BCA;
-}
 .etapa::before,.temario-icono::before{
 	border-radius: 20px;
 	color: #fff;
@@ -82,20 +79,33 @@ img[src*="Evnt-32"]{
 	right: 16px;
 	top: 17px;
 }
-#centro{text-align:center;}
+#centro{
+	text-align:center;
+	color: white;
+	padding: 25px;
+	background: rgba(0,0,0,0.6);
+}
+#eventos{
+	background-image: url(../img/fondo.png);
+	background-size: 100% 100%;
+	padding-bottom: 25px;
+}
 #clear{clear: left;}
 .color1{background: red;}
 .color2{background: green;}
 .color3{background: blue;}
 .color4{background: aqua;}
 .color4{background: white;}
-.desc h4{text-transform: capitalize;}
 .justy{text-align:justify;}
 .tema{font-family: sans-serif;}
 .temario-fecha-bootom{display:none;}
 .temario
-.temario-desc:hover .temario-icono::before{
-	background: #E22727;
+.temario-desc:hover .temario-icono::before{background: #428bca;}
+/*.temario-desc:hover .temario-icono::before{background: #E22727;}*/
+.temario-desc:hover .desc{
+	color: #fff;
+	background: rgba(66, 139, 202, 0.65);;
+
 }
 @media (max-width: 767px) {
 	.temario-fecha-bootom{display:block;}
