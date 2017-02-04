@@ -1,413 +1,472 @@
-﻿<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <!-- TAG GENERALES -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Comunidad de Emprendedores e Innovadores tecnológicos de la Región de Tacna">
-    <meta name="author" content="Gersom Alaja">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <meta name="google-site-verification" content="wpmfFwlCHxDUYfiK9EHz0tVJSaFCssYYOz7-iYDFxRk" />
-    <title>Comunidad Tacna Valley</title>
-    
-    <!-- TAG DE FACEBOOK -->
-    <meta property="og:title" content="Tacna Valley" />
-    <meta property="og:site_name" content="TacnaValley.org"/>
-    <meta property="og:description"content="Comunidad de Emprendedores e Innovadores Tecnológicos de Tacna, que tiene como objetivo Desarrollar un Ecosistema de Emprendimiento con Base Tecnológica, aplicando creatividad, investigación, desarrollo e innovación." />
-    <meta property="article:author" content="https://www.facebook.com/yherson.dan" />
-    <meta property="og:image" content="http://www.tacnavalley.org/img/tv_fb_mini.jpg" />
 
+    <meta charset="utf-8">
 
-    <!-- FRAMEWORKS Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <title>Tacna Valley</title>
 
-    <!--CSS NORMALES-->
-    <link href="css/cronograma.css" rel="stylesheet" type="text/css">
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link rel="shorcut icon" href="img/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/x-icon" href="img/logotv.ico" />
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- JAVASCRIPTS -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/vermas.js"></script>
+    <!-- Theme CSS -->
+    <link href="css/tv.min.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top" class="index">
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top">Tacna Valley</a>
-            </li>
-            <li>
-                <a href="#top">Inicio</a>
-            </li>
-            <li>
-                <a href="#about">Nosotros</a>
-            </li>
-            <!-- <li>
-                <a href="#services">Ecosistema Emprendedor</a>
-            </li> -->
-            <!-- <li>
-                <a href="#postula">Postula</a>
-            </li> -->
-            <!-- <li>
-                <a href="#eventos">Nuestros Eventos</a>
-            </li> -->
-            <li>
-                <a href="#registrate">Registrarte</a>
-            </li>
-            <li>
-                <a href="#integrantes">Integrantes</a>
-            </li>
-            <li>
-                <a href="#contacto">Contáctanos</a>
-            </li>
-        </ul>
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                </button>
+                <a href="#"><img src="img/logos/tacnavalley.png" class="img-responsive img-centered" alt="" style="height: 30px;margin-top: 5px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Equipo</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <div class="logo">
-                <img src="img/logotv.png">
-            </div>
-            <h1>Tacna Valley</h1>
-            <h3>COMUNIDAD DE EMPRENDEDORES E INNOVADORES TECNOLÓGICOS DE TACNA</h3>
-            <br>
-            <a href="http://eepurl.com/bsc3I9" target="_blank" id="unete" class="btn btn-dark btn-lg">REGÍSTRATE</a>
-            <!-- <a href="http://goo.gl/forms/NmY88LvmtP" target="_blank" id="unete" class="btn btn-dark btn-lg">¡UNETE A NOSOTROS!</a> -->
-            <div id="abajo">
-                <a href="#about"><img src="img/bottom.png"></a>
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">¡Potencia tus</div>
+                <div class="intro-heading">Ideas de Negocio!</div>
+                <a href="https://www.facebook.com/TacnaValley/app/100265896690345/" target="_blank" class="page-scroll btn btn-xl">Únete a la Comunidad</a>
             </div>
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <!-- projects Grid Section -->
+    <section id="projects" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Desarrollando un Ecosistema de Emprendimiento con Base Tecnológica en Tacna</h2>
-                    <p class="lead">Aplicando creatividad, investigación, desarrollo e innovación.</p>
+                    <h2 class="section-heading">Nuestros Últimos Proyectos</h2>
+                    <h3 class="section-subheading text-muted">Estamos comprometidos con el desarrollo del ecosistema de emprendimiento e innovación de la Región de Tacna.</h3>
                 </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Formando Equipos Multidisciplinarios</h2>
-                    <hr class="small">
-                    <div id="justificado" class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Espíritu Emprendedor</strong>
-                                </h4>
-                                <p>Nos enfocamos en crear un ecosistema de emprendimiento tecnológico en Tacna, como base para fortalecer el desarrollo económico en nuestra región con la apertura de nuevas startups</p>
-                                
+            <div class="row">
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal1" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Generar Sinergia</strong>
-                                </h4>
-                                <p>Trabajamos en equipo con comunidades de emprendimiento y teconología, así mismo generamos alianzas con organizaciones que incuban y aceleran los emprendimientos.</p>
-                                <!--- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Aplicar Innovación</strong>
-                                </h4>
-                                <p>Colaboramos en la formación de nuevos emprendimientos tecnológicos y equipos multidisciplinarios, brindándoles asesoría y además de una red de contactos para iniciar sus proyectos.</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Te Empoderamos</strong>
-                                </h4>
-                                <p>Organizamos Talleres para desarrollar aptitudes de emprendimiento, herramientas de modelado de negocio y conocimientos técnicos para su puesta en marcha.</p>
-                                
-                            </div>
-                        </div>
+                        <img src="img/projects/1.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Taller de Business Model Canvas</h4>
+                        <p class="text-muted">UNJBG</p>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-
-    <!-- <section id="postula">
-        <section>
-            <a href="http://goo.gl/forms/NmY88LvmtP" target="_blank">
-                <article>
-                    <h2>ÚNETE A NOSOTROS</h2>
-                </article>
-            </a>
-            <article>
-                <p>Si quieres ser parte del equipo de <strong>Tacna Valley</strong> y tienes interés en aportar al desarrollo del ecosistema emprendedor tecnologíco, postula a nuestro equipo de colaboradores voluntarios.</p>
-            </article>
-        </section>
-        <aside>
-            <div>
-                <img src="img/volador.png" />
-            </div>
-            <img class="nube" src="img/nube.png" />
-            <img class="nube" src="img/nube.png" />
-            <img class="nube" src="img/nube.png" />
-        </aside>
-    </section> -->
-
-
-
-
-
-    <div id="fondoo">
-
-    <!-- Call to Action -->
-    <div id="registrate">
-        <aside class="call-to-action bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 id="n">UNETE A NOSOTROS</h2>
-                        <h2>Únete a nuestra comunidad y énterate de nuestros eventos.</h2>
-
-                        <a href="http://eepurl.com/bsc3I9" target="_blank" class="btn btn-lg btn-dark">REGÍSTRATE</a>
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal2" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/2.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Taller de Innovación</h4>
+                        <p class="text-muted">Universidad Privada de Tacna</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal3" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/3.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Programa TacnaEmprende 2</h4>
+                        <p class="text-muted">Abierto</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal4" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/4.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Ruta Startup 2015</h4>
+                        <p class="text-muted">Abierto</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal5" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/5.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Taller de Validación de Ideas</h4>
+                        <p class="text-muted">Abierto</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="#projectsModal6" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/6.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>Taller de Modelos de Negocio</h4>
+                        <p class="text-muted">Abierto</p>
                     </div>
                 </div>
             </div>
-        </aside>
-    </div>
-
-
-
-
-    
-    <section id="integrantes">
-        <h2>NUESTROS INTEGRANTES</h2>
-        <h4><img src="img/tvl.png" width="150" height="auto"></h4>
-
-        <!-- DIRECCION -->
-        <article>   
-            <p class="negrita">DIRECTOR GENERAL</p>
-            <p>Marvin Daniel Galvez Pilco</p>
-            <p>Ingeniería en Informática y Sistemas</p></article>
-        <article>  
-            <p class="negrita">VICEDIRECTOR GENERAL</p>
-            <p>Frank Cristopher García Cruz</p>
-            <p>Administración de Empresas</p></article>
-
-        <!-- EQUIPO I+D+I -->
-        <article>
-            <p class="negrita">EQUIPO I+D+I</p>
-            <p>Gersom Alaja Tomaiconza</p>
-            <p>Computación e informática</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO I+D+I</p>
-            <p>Alonso Godinez Salazar</p>
-            <p>Ingeniería en Informática y Sistemas</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO I+D+I</p>
-            <p>Elmer Cañi Huaricallo</p>
-            <p>Ingeniería Comercial</p></article>
-
-        <!-- EUIPO DE MARKETING -->
-        <article>
-            <p class="negrita">EQUIPO DE MARKETING</p>
-            <p>Julio Ticona Maron</p>
-            <p>Ingeniería Comercial</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO DE MARKETING</p>
-            <p>Ruth Phala Cusi</p>
-            <p>Computación e informática</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO DE MARKETING</p>
-            <p>Ruth E. Chura Huanacuni</p>
-            <p>Ing. Comercial</p></article>
-
-        <!-- EQUIPO DE TALENTO HUMANO -->
-        <article>
-            <p class="negrita">EQUIPO TALENTO HUMANO</p>
-            <p>Katty Vargas Tudela</p>
-            <p>Derecho</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO TALENTO HUMANO</p>
-            <p>Erika T. Tintaya Vidal</p>
-            <p>Ingeniería Comercial</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO TALENTO HUMANO</p>
-            <p>Yosemith Laque Alvarez</p>
-            <p>Ingeniería Comercial</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO TALENTO HUMANO</p>
-            <p>yudi juli espinoza</p>
-            <p>Ingeniería Comercial</p></article>
-
-        <!-- EQUIPO DE LGISTICA Y FINANZAS -->
-        <article>
-            <p class="negrita">EQUIPO DE LOGÍSTICA</p>
-            <p>Claudia Neyra Sánchez</p>
-            <p>Ingeniería en Informática y Sistemas</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO DE LOGÍSTICA</p>
-            <p>Masiell Quenta Cardenas</p>
-            <p>Ingeniería Comercial</p></article>
-        <article class="oculto">
-            <p class="negrita">EQUIPO DE LOGÍSTICA</p>
-            <p>Evelyn Amelia Anchapuri Saira</p>
-            <p>Economía Agraria</p></article>
-
-        <!-- INTEGRANTES EVENTUALES -->
-        <article class="oculto">
-            <p class="negrita">MEMBER TEAM</p>
-            <p>Lorena Miranda Gutiérrez</p>
-            <p>Ingeniería Comercial</p></article>
-        <article class="oculto">
-            <p class="negrita">MEMBER TEAM</p>
-            <p>Jorge Linares Vera</p>
-            <p>Ingeniería en Informática y Sistemas</p></article>
-        <article class="oculto">
-            <p class="negrita">MEMBER TEAM</p>
-            <p>Eduar Ruben Apaza Yañez</p>
-            <p>Ingeniería en Informática y Sistemas</p></article>
-        <article class="oculto">
-            <p class="negrita">MEMBER TEAM</p>
-            <p>Estefanny Arrázola Quispe</p>
-            <p>Contabilidad Financiera</p></article>
-        <article class="oculto">
-            <p class="negrita">MEMBER TEAM</p>
-            <p>Lisseth Quispe Quispe</p>
-            <p>Administración</p></article>
-
-
-        <div>
-            <p>VER TODOS...!</p>
         </div>
     </section>
 
-    </div>
-
-
-
-
-
-    <!-- Footer -->
-    <footer id="contacto" class="contacto">
+    <!-- Team Section -->
+    <section id="team" class="bg-tv-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Tacna Valley</strong> - Comunidad de Emprendedores e Innovadores Tecnológicos de Tacna
-                    </h4>
-                    <p>Con el apoyo de la Sub Gerencia de Juventudes, Educación, Cultura, Deportes y Recreación.<br>Municipalidad Provincial de Tacna</p>
-                    <br>
-                    <h3>APOYAN:</h3>
-                    <ul class="list-inline">
-                         <li>
-                            <a href="http://lima-valley.com/" target="_blank"><img src="img/lv.jpg"></a>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Nuestro increíble equipo</h2>
+                    <h3 class="section-subheading text-muted3">Somos un equipo muldisciplinario de voluntarios con una misma visión.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Erika Tintaya</h4>
+                        <p class="text-muted2">Director Ejecutivo</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Ruth Phala</h4>
+                        <p class="text-muted2">Coordinador de Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Gersom Alaja</h4>
+                        <p class="text-muted2">Coordinador de Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/4.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Yosemith Laque</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/5.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Karolina Huanca</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/6.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Claudia Apaza</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/7.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Frank García</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/8.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Cielo Escobar</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/9.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Evelyn Anchapuri</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/10.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Masiell Quenta</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/11.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Ruth Chura</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/12.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Estefanny Arrázola</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/13.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Alejandro Ticona</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/14.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Elmer Cañi</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/15.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Efraín Osco</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/16.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Lourdes Choque</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/17.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Alonso Godínez</h4>
+                        <p class="text-muted2">Proyectos</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/18.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Daniel Gálvez</h4>
+                        <p class="text-muted2">Organización</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/logos/novigo.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/logos/tacneno.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/logos/waki.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/logos/urban.jpg" class="img-responsive img-centered" alt="">
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">tacnavalleyorg@gmail.com<span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/Tacna_Valley"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li>
-                            <a href="http://www.munitacna.gob.pe/" target="_blank"><img src="img/muni_tacna.gif" ></a>
+                        <li><a href="https://www.facebook.com/TacnaValley/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/tacna-valley"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
-                    <hr class="small">
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i>(051) #990 011146</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:Tacnavalleyorg@gmail.com">hola@tacnavalley.org</a>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#"></a>
+                        </li>
+                        <li><a href="#"></a>
                         </li>
                     </ul>
-                    <br>
-                    <ul class="list-inline">
-                         <li>
-                            <a href="https://www.facebook.com/TacnaValley" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/Tacna_Valley" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Comunidad Tacna Valley 2015</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <!-- projects Modals -->
+
+    <!-- projects Modal 1 -->
+    <div class="projects-modal modal fade" id="projectsModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Taller de Business Model Canvas</h2>
+                                <p class="item-intro text-muted">Universidad Nacional Jorge Basadre Grohmann</p>
+                                <img class="img-responsive img-centered" src="img/projects/1.png" alt="">
+                                <p>Con gran entusiasmo y participación se realizó el Taller de Business Model Canvas en la Universidad Nacional Jorge Basadre Grohmann el 24 de Setiembre gracias a la invitación del Círculo de Estudios e Investigación de Ciencias Administrativas de la Escuela Profesional de Ciencias Administrativas de dicha universidad.</p>
+                                <p>
+                                Si deseas ver más fotos puedes ingresar al siguiente <a href="https://www.facebook.com/media/set/?set=a.999282836866754.1073741864.327037367424641&type=1&l=2ed8bed95c" target="_blank">enlace</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Fecha: 24 de Setiembre del 2016</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects Modal 2 -->
+    <div class="projects-modal modal fade" id="projectsModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Taller de Innovación</h2>
+                                <p class="item-intro text-muted">Universidad Privada de Tacna</p>
+                                <img class="img-responsive img-centered" src="img/projects/2.png" alt="">
+                                <p>La innovación es lo que distingue a los líderes de los seguidores, decía Steve Jobs. Con motivo de potenciar las habilidades de jóvenes universitarios llevamos a cabo este Taller de Innovación en la Universidad Privada de Tacna y gracias a la invitación del Movimiento Universitario Unidos.</p>
+                                <p>
+                                Si deseas ver más fotos puedes ingresar al siguiente <a href="https://www.facebook.com/media/set/?set=a.883322068462832.1073741858.327037367424641&type=1&l=dcc85cddfb" target="_blank">enlace</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Fecha: 16 de Abril del 2016</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects Modal 3 -->
+    <div class="projects-modal modal fade" id="projectsModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Programa Tacna Emprende 2</h2>
+                                <p class="item-intro text-muted">Abierto</p>
+                                <img class="img-responsive img-centered" src="img/projects/3.png" alt="">
+                                <p>Programa desarrollado para potenciar las habilidades técnicas de jóvenes emprendedores de la región Tacna. Agradecemos al Neumann Business School por facilitarnos sus instalaciones.</p>
+                                <p>
+                                Si deseas ver más fotos puedes ingresar al siguiente <a href="https://www.facebook.com/media/set/?set=a.753755138086193.1073741849.327037367424641&type=1&l=34ef8cead1" target="_blank">enlace</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Fecha: Sábados del 18 de Julio al 08 de Agosto del 2015</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <!-- Theme JavaScript -->
+    <script src="js/tv.min.js"></script>
 
 </body>
 
